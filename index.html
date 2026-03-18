@@ -1,156 +1,263 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" href="assets/portfolio.png" type="image/x-icon" />
-    <title>Yashwanth's Portfolio Website</title>
-    <a href="https://www.flaticon.com/free-icons/curriculum-vitae" title="curriculum vitae icons"></a>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-</head>
+    <a
+      href="https://www.flaticon.com/free-icons/curriculum-vitae"
+      title="curriculum vitae icons"
+    ></a>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
+    <script src="index.js"></script>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <h1><a href="/"><span class="fa-solid fa-code"></span> Yashwanth Maringanti</a></h1>
-                </li>
-                <li><a href="#portfolio">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="/#contact">Contact</a></li>
-                <li><a href="https://www.linkedin.com/in/yashwanthmaringanti" target="_blank"><span
-                            class="fa-brands fa-linkedin" aria-hidden="true"></span><span
-                            class="sr-only">LinkedIn</span></a></li>
-                <li><a href="https://www.github.com/YashwanthMaringanti" target="_blank"><span
-                            class="fa-brands fa-github" aria-hidden="true"></span><span
-                            class="sr-only">Github</span></a></li>
-                <li><a href="https://dropbox.com/s/Resume.pdf" class="button">Resume</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <h1>
+              <a href="/"
+                ><span class="fa-solid fa-code"></span> Yashwanth Maringanti</a
+              >
+            </h1>
+          </li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="components.html">Components</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yashwanthmaringanti"
+              target="_blank"
+              ><span class="fa-brands fa-linkedin" aria-hidden="true"></span
+              ><span class="sr-only">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="https://www.github.com/YashwanthMaringanti" target="_blank"
+              ><span class="fa-brands fa-github" aria-hidden="true"></span
+              ><span class="sr-only">Github</span></a
+            >
+          </li>
+          <li>
+            <a href="https://dropbox.com/s/Resume.pdf" class="button">Resume</a>
+          </li>
+          <li>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+              <span class="fa-solid fa-moon"></span>
+            </button>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section id="intro">
+      <div class="header">
         <p class="name">Hi, my name is <span>Yashwanth Maringanti</span></p>
-        <h2>I develop and teach the web.</h2>
-        <p>I develop the websites, the backend of websites, user experiences, user interfaces, digital experiences etc.
-        </p>
-        <p>I am a developer, an educator and a student. I worked at HCL Tech for 2.5+ years in Application Production Support for BNP Paribas and Deutsche Bank. 
-            Currently, I am pursuing MS in Information Science and Machine Learning at the University of Arizona. </p>
+        <img
+          src="./assets/yashwanth-photo-ai.png"
+          alt="yashwanth photo"
+          width="100"
+          class="photo"
+        />
+      </div>
+      <h2>I develop and teach the web.</h2>
+      <p>
+        I develop the websites, the backend of websites, user experiences, user
+        interfaces, digital experiences etc.
+      </p>
+      <p>
+        I am a developer, an educator and a student. Currently, I am pursuing MS
+        in Information Science and Machine Learning at the University of
+        Arizona.
+      </p>
     </section>
     <div class="gradient"></div>
     <div class="section-blue">
-        <section id="projects">
-            <h2>Projects I'm proud of</h2>
-            <article>
-                <div class="text">
-                    <h4>Latest Project</h4>
-                    <h3>Simple Bug Tracker [In Progress]</h3>
-                    <p class="blackbox">
-                        Created a production ready Bug Tracker using Spring Boot, MongoDB And React which is designed to
-                        track the issues and team management. 
-                        <a href="https://youtu.be/Kafo6CnrSgA" style="text-decoration: none;">Youtube🔗</a><br>
-                        <a href="https://github.com/MaringantiYashwanth/issue-tracker.git" style="text-decoration: none;">GitHub Link🔗</a>
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>Java</li>
-                        <li>Spring boot</li>
-                        <li>MongoDB</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <a href="https://youtu.be/Kafo6CnrSgA" height="100" width="100"><img src="assets/bugtracking.png"
-                    alt="Screenshot of the Bugtracker."></a>
-            </article>
-            <article class="reverse">
-                <div class="text">
-                    <h4>Project 2</h4>
-                    <h3>QueueCraft</h3>
-                    <p class="blackbox">
-                        Displays the power of message-driven architecture using Spring Boot and RabbitMQ. This demo focuses on establishing a reliable publish-subscribe pipeline for inter-service communication.
-                        Key Features are Publisher endpoint, Consumer Listener, Spring AMQP Integration
-                        <a href="https://github.com/MaringantiYashwanth/queuecraft-rabbitmq.git">Github Link 🔗</a>
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>Java</li>
-                        <li>Spring Boot</li>
-                        <li>Rabbit MQ</li>
-                        <li>Java 17</li>
-                        <li>Maven</li>
-                    </ul>
-                </div>
-                <img src="assets/quecraft.png"
-                    alt="Screenshot of the QueueCraft Project">
-            </article>
-            <article>
-                <div class="text">
-                    <h4>Project 3</h4>
-                    <h3>Inventory Management System [In Progress]</h3>
-                    <p class="blackbox">
-                        The Project is designed to track, manage, and optimize inventory across multiple categories and locations.
-                        Helps to Add, update, and categorize items with quantity, price, and supplier details.
-                        <a href="">this</a>, and
-                        multiple links look <a href="https://github.com/MaringantiYashwanth/inventory-management-system.git">Github Link🔗</a> 
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>Java</li>
-                        <li>Spring Boot</li>
-                        <li>MongoDB</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                </div>
-                <img src="assets/InventoryManagementSystem.png"
-                    alt="Screenshot of the Inventory management system application">
-            </article>
-        </section>
+      <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <article>
+          <div class="text">
+            <h4>Latest Project</h4>
+            <h3>Simple Bug Tracker [In Progress]</h3>
+            <p class="blackbox">
+              Created a production ready Bug Tracker using Spring Boot, MongoDB
+              And React which is designed to track the issues and team
+              management.
+              <a
+                href="https://youtu.be/Kafo6CnrSgA"
+                style="text-decoration: none"
+                >Youtube🔗</a
+              ><br />
+              <a
+                href="https://github.com/MaringantiYashwanth/issue-tracker.git"
+                style="text-decoration: none"
+                >GitHub Link🔗</a
+              >
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Java</li>
+              <li>Spring boot</li>
+              <li>MongoDB</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <a href="https://youtu.be/Kafo6CnrSgA" height="100" width="100"
+            ><img
+              src="assets/bugtracking.png"
+              alt="Screenshot of the Bugtracker."
+          /></a>
+        </article>
+        <article class="reverse">
+          <div class="text">
+            <h4>Project 2</h4>
+            <h3>QueueCraft</h3>
+            <p class="blackbox">
+              Displays the power of message-driven architecture using Spring
+              Boot and RabbitMQ. This demo focuses on establishing a reliable
+              publish-subscribe pipeline for inter-service communication. Key
+              Features are Publisher endpoint, Consumer Listener, Spring AMQP
+              Integration
+              <a
+                href="https://github.com/MaringantiYashwanth/queuecraft-rabbitmq.git"
+                >Github Link 🔗</a
+              >
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>Rabbit MQ</li>
+              <li>Java 17</li>
+              <li>Maven</li>
+            </ul>
+          </div>
+          <img
+            src="assets/quecraft.png"
+            alt="Screenshot of the QueueCraft Project"
+          />
+        </article>
+        <article>
+          <div class="text">
+            <h4>Project 3</h4>
+            <h3>Inventory Management System [In Progress]</h3>
+            <p class="blackbox">
+              The Project is designed to track, manage, and optimize inventory
+              across multiple categories and locations. Helps to Add, update,
+              and categorize items with quantity, price, and supplier details.
+              <a href="">this</a>, and multiple links look
+              <a
+                href="https://github.com/MaringantiYashwanth/inventory-management-system.git"
+                >Github Link🔗</a
+              >
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>MongoDB</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+          <img
+            src="assets/InventoryManagementSystem.png"
+            alt="Screenshot of the Inventory management system application"
+          />
+        </article>
+      </section>
     </div>
     <div class="gradient"></div>
     <div class="section-plum">
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>I'm always interested in hearing about new developer and teaching opportunities, writing curricula, or
-                instructional design work on social media and youtube.</p>
-            <p><a href="mailto:yashwanthmaringanti@gmail.com" class="button">Email Me</a></p>
-        </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          I'm always interested in hearing about new developer and teaching
+          opportunities, writing creative content and blog posts on social media
+          and youtube.
+        </p>
+        <p>
+          <a href="mailto:yashwanthmaringanti@gmail.com" class="button"
+            >Email Me</a
+          >
+        </p>
+      </section>
     </div>
     <div class="gradient"></div>
     <footer>
-        <h2>Yashwanth Maringanti · Software Developer</h2>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/yashwanthmaringanti" target="_blank">
-                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span><span
-                        class="sr-only">LinkedIn</span></a>
-            </li>
-            <li><a href="https://www.github.com/YashwanthMaringanti" target="_blank"><span
-                        class="fa-brands fa-github-square" aria-hidden="true"></span><span
-                        class="sr-only">Github</span></a></li>
-            <li>
-                <a href="mailto:yashwanthmaringanti@gmail.com">
-                    <span class="fa-solid fa-envelope" aria-hidden="true"></span>
-                    <span class="sr-only">Email</span>
-                </a>
-
-            </li>
-        </ul>
-        <p><small>© 2025 Yashwanth Maringanti. All rights reserved.</small></p>
+      <h2>Yashwanth Maringanti · Software Developer</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/yashwanthmaringanti"
+            target="_blank"
+          >
+            <span class="fa-brands fa-linkedin" aria-hidden="true"></span
+            ><span class="sr-only">LinkedIn</span></a
+          >
+        </li>
+        <li>
+          <a href="https://www.github.com/YashwanthMaringanti" target="_blank"
+            ><span class="fa-brands fa-github-square" aria-hidden="true"></span
+            ><span class="sr-only">Github</span></a
+          >
+        </li>
+        <li>
+          <a href="mailto:yashwanthmaringanti@gmail.com">
+            <span class="fa-solid fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">Email</span>
+          </a>
+        </li>
+      </ul>
+      <p><small>© 2025 Yashwanth Maringanti. All rights reserved.</small></p>
     </footer>
 
-
-    <div class="glasp-extension-toaster"
-        style="display: block; width: 320px; margin: unset; padding: unset; border: unset; border-radius: unset; outline: unset; background-color: unset; box-shadow: unset; position: fixed; top: 40px; right: 24px; z-index: 9999;">
-    </div>
-    <div class="glasp-extension"
-        style="display: block; width: unset; margin: unset; padding: unset; border: unset; border-radius: unset; outline: unset; background-color: unset; box-shadow: unset; position: fixed; bottom: 16px; right: 16px; z-index: 9999;">
-    </div>
-</body>
-
+    <div
+      class="glasp-extension-toaster"
+      style="
+        display: block;
+        width: 320px;
+        margin: unset;
+        padding: unset;
+        border: unset;
+        border-radius: unset;
+        outline: unset;
+        background-color: unset;
+        box-shadow: unset;
+        position: fixed;
+        top: 40px;
+        right: 24px;
+        z-index: 9999;
+      "
+    ></div>
+    <div
+      class="glasp-extension"
+      style="
+        display: block;
+        width: unset;
+        margin: unset;
+        padding: unset;
+        border: unset;
+        border-radius: unset;
+        outline: unset;
+        background-color: unset;
+        box-shadow: unset;
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        z-index: 9999;
+      "
+    ></div>
+  </body>
 </html>
